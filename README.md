@@ -1,6 +1,7 @@
 ## 🌊 Flood Social Media Sentiment Analysis Dashboard
 A Streamlit + NLP Project for Real-Time Public Sentiment Monitoring During Floods
-📌 Overview
+
+## 📌 Overview
 
 This project provides an interactive, real-time sentiment analysis dashboard for analyzing public emotions during flood situations using social media data.
 It combines NLP, data visualization, and Streamlit UI to generate insights into how people react, respond, and communicate during flood emergencies.
@@ -54,14 +55,6 @@ If subjectivity < 0.10, the post is automatically marked as Neutral.
 
 The UI contains multiple analysis tabs:
 
-## Tab	Description
-📊 Overview	Dataset info, missing values, content length distribution
-📈 Sentiment Analysis	Pie charts, scatter plots, sentiment stats
-🌍 Geographical Insights	Location-wise polarity maps & bar charts
-📱 Source-Based Trends	Platform-wise activity (Twitter, FB, etc.)
-📅 Temporal Analysis	Daily trends, sentiment over time
-🔍 Data Explorer	Filter posts by sentiment & inspect raw text
-📁 Folder Structure
 📦 flood-sentiment-analysis
 │
 ├── app.py                      # Main Streamlit application
